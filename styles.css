@@ -50,3 +50,52 @@ footer {
     padding: 15px;
     background-color: #eee;
 }
+
+.seccion-candidatos {
+    background-color: rgb(243, 134, 207);
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 25px;
+  }
+  
+  .contenedor-candidatos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 18px;
+    margin-top: 20px;
+  }
+  
+  .tarjeta-candidato {
+    border: 1px solid #09c2f0;
+    border-left: 5px solid #db3907;
+    border-radius: 10px;
+    padding: 18px;
+    background-color: #d0e976ec;
+  }
+  
+  .tarjeta-candidato h3 {
+    color: #15022b;
+    margin-top: 0;
+  }
+  
+  .tarjeta-candidato button {
+    margin-top: 10px;
+    background-color: #8A1538;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .tarjeta-candidato button:hover {
+    background-color: #18c221;
+  }
+  
+  .detalle-perfil {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #F9EEF3;
+    border-left: 5px solid #0bc023;
+    border-radius: 8px;
+  }
