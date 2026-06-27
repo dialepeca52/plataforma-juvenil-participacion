@@ -5,5 +5,26 @@
     "rol": "Ser el heroe soñado de las personas con sobrepeso",
     "propuesta": "Quiere vencer a los villanos de los ultraprocesados y a la liga del azucar.",
     "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1782594800593,
+    "nombre": "Bolton",
+    "rol": "La mascota del team",
+    "propuesta": "Ladrarle a los gatos bigotones",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1782594847698,
+    "nombre": "Germen anranjado",
+    "rol": "Enfermar a la sociedad desde adentro sin que se de cuenta",
+    "propuesta": "Quiero destruir el malevolo sistema inmune que tiene a las personas afectadas en contra de su voluntad.",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1782596576434,
+    "nombre": "Lapiz",
+    "rol": "Escritor",
+    "propuesta": "Escribir",
+    "estado": "Perfil de práctica académica"
   }
 ]
