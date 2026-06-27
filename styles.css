@@ -99,3 +99,35 @@ footer {
     border-left: 5px solid #0bc023;
     border-radius: 8px;
   }
+
+.formulario-candidato {
+    background-color: #4e9cf5ec;
+    }
+
+.formulario-candidato h2 {
+        color: rgb(106, 5, 153);
+    }
+
+  .formulario-candidato input,
+.formulario-candidato textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #d60707;
+  border-radius: 6px;
+}
+
+#mensajeGuardado {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #8A1538;
+}
+
+.tarjeta-guardada {
+  margin-top: 12px;
+  padding: 12px;
+  border-left: 5px solid #8A1538;
+  background-color: #F9EEF3;
+  border-radius: 8px;
+}
