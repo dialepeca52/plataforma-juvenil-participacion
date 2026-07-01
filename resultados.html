@@ -29,7 +29,6 @@
   <script>
     const btnCargarResultados = document.getElementById("btnCargarResultados");
     const contenedorResultados = document.getElementById("contenedorResultados");
-    const CANDIDATO_FAVORECIDO = "Bolton";
 
     async function cargarResultados() {
       const respuesta = await fetch("/api/votos");
@@ -42,11 +41,7 @@
           resultados[voto.candidato] = 0;
         }
 
-        if (vot.candidato === CANDIDATO_FAVORECIDO) {
-          resultados[voto.candidato] = resultados[voto.candidato] + 2 
-        } else {
-          resultados[voto.candidato] = resultados[voto.candidato] + 1;}
-        
+        resultados[voto.candidato] = resultados[voto.candidato] + 1;
       });
 
       contenedorResultados.innerHTML = "";

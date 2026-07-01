@@ -1,3 +1,5 @@
+/* Clase 27 - Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -130,4 +132,32 @@ footer {
   border-left: 5px solid #8A1538;
   background-color: #F9EEF3;
   border-radius: 8px;
+}
+
+/* Clase 32 - Tablero de resultados */
+
+.barra-resultado {
+  width: 100%;
+  background-color: #e40a6c;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.barra-porcentaje {
+  height: 18px;
+  background-color: #8A1538;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.OVEJA{
+  border: 5px solid #1c0fd8;
+  border-color: 10px solid salmon;
+  width: 100px;
+  height: 100px;
+  margin-left: 250px;
 }
